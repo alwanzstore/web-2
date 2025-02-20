@@ -1,0 +1,44 @@
+1. Apa itu dokumen root?
+Dokumen root adalah folder utama di dalam server web yang menyimpan file-file website yang bisa diakses lewat browser. Contohnya, kalau kita buka http://localhost/index.html, berarti file index.html harus ada di dalam dokumen root supaya bisa diakses dengan benar.
+
+2. Apakah dokumen root di Apache Web Server harus ada di C:\xampp\htdocs?
+Nggak harus. Secara default, XAMPP memang menyimpan dokumen root di C:\xampp\htdocs, tapi kita bisa mengubahnya dengan mengedit file konfigurasi Apache (httpd.conf). Caranya:
+
+A.Buka file httpd.conf (biasanya ada di C:\xampp\apache\conf\httpd.conf)
+B.Cari baris ini: File.php 
+DocumentRoot "C:/xampp/htdocs"
+<Directory "C:/xampp/htdocs">
+C.Ganti dengan lokasi folder lain, misalnya:File.php
+DocumentRoot "D:/web_project"
+<Directory "D:/web_project">
+D.Restart Apache supaya perubahan berlaku.
+
+3. Perintah Git dan Fungsinya
+git init → Buat repository Git baru di dalam folder proyek.
+git clone <URL> → Download repository dari server (misalnya GitHub/GitLab) ke komputer lokal.
+git remote → Kelola URL repository yang tersimpan di remote server.
+git add <file> → Tambahkan file ke staging area sebelum commit.
+git commit -m "pesan" → Simpan perubahan dengan pesan tertentu.
+git push origin <branch> → Kirim perubahan dari komputer lokal ke repository di server.
+git checkout <branch> → Pindah ke branch lain dalam repository.
+
+4.Perbedaan GitHub dan GitLab
+GitHub lebih populer dan sering dipakai untuk proyek open-source.
+GitLab lebih fleksibel dan punya fitur bawaan untuk CI/CD (otomatisasi proses pengembangan software).
+
+5.Perbedaan Variable User dan Variable System
+Variable User → Berlaku hanya untuk akun pengguna tertentu di komputer. Jadi, kalau ada dua akun berbeda di satu PC, variabel user masing-masing bisa berbeda.
+Variable System → Berlaku untuk semua akun pengguna dalam satu komputer.
+Contoh:
+
+PATH di Variable System berisi direktori yang bisa digunakan semua pengguna.
+TEMP di Variable User bisa punya lokasi berbeda untuk setiap akun pengguna.
+
+6. Persamaan Variable System dan Constants
+Sama-sama menyimpan nilai yang digunakan oleh sistem atau program.
+Biasanya berisi informasi penting yang jarang berubah.
+Bisa diakses oleh program atau proses yang berjalan di sistem.
+Perbedaannya:
+
+Variable System bisa diubah kapan saja.
+Constants bersifat tetap dan nggak bisa diubah selama program berjalan.
