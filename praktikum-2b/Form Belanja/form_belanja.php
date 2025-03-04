@@ -37,7 +37,7 @@
                         <div class="form-group row">
                             <label for="namacus" class="col-4 col-form-label">Nama Customer</label> 
                             <div class="col-8">
-                                <input id="namacus" name="namacus" placeholder="*Hanung Tri Atmojo" type="text" required="required" class="form-control">
+                                <input id="namacus" name="namacus" placeholder="*Syafiq Alwan Syauqi" type="text" required="required" class="form-control">
                             </div>
                         </div>
                         <div class="form-group row">
