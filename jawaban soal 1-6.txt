@@ -1,0 +1,49 @@
+1. Jelaskan apa yang dimaksud dengan dokumen root ?
+= dokumen root itu dokumen utama atau titik awal struktur hierarkis
+pada dalam web development file index.html adalah dokumen root yang diakses
+pertama kali saat membuka website
+Struktur Direktori : direktori root ( / atau C:\) adalah folder paling atas yang menjadi
+dasar semua file dan folder,
+Dalam Basis Data: dalam database seperti mongoDB, dokumen root adalah entri
+utama yang terkait dengan data lain.
+
+
+2. Pada apache web server, apakah dokumen root harus terletak dalam direktori
+C:\xampp\htdocs ? Jelaskan jawaban anda
+= ga harus selalu ada atau terletak di C:\xampp\htdocs. itu semua tergantung
+konfigurasi Apachenya yaitu (httpd.conf atau apache2.conf)
+
+
+3. Jelaskan apa yang dimaksud dengan perintah git : init, clone, remote, add, commit,
+push dan checkout
+= git init : menginisialisasi repository git baru ke dalam direktori
+git clone : mengcopy repository server ke komputer lokal
+git remote : mengelola koneksi ke repository seperti GitHub/GitLab
+git add : untuk menambahkan atau mengupdate perubahan file ke staging sebelum
+commit
+git push : mengirim perubahan commit dari repository lokal ke remote
+git checkout : untuk berpindah ke branch lain atau mengembalikan file ke versi
+tertentu dalam repository
+
+
+4. Jelaskan perbedaan antara GitHub dan GitLab
+= github berbasis cloud atau enterprise , gitlab bisa di host sendiri atau di cloud juga
+bisa
+github lebih populer dan lebih digunakan untuk open source atau komunitas,
+sedangkan gitlab lebih berfokus pada DevOps dan Cl/CD
+dalam segi keamanan dan kontrol akses, github berbasis tim, beberapa fiture
+keamanannya juga memerlukan github enterprise, untuk gitlab dia menawarkan
+kontrol akses yang lebih granular, dalam versi gratisnya juga
+
+
+5. Apa bedanya variable user dengan variable system ?
+= variabel user berlaku untuk user terpilih atau user tertentu saja, variable system
+berlaku untuk semua user di sistem, dalam lokasi penyimpanannya variable user
+disimpan di dalam profil
+
+
+6. Apa persamaan variable system dengan variable constant ?
+= sama-sama menyimpan nilai, digunakan dalam perhitungan atau proses sistem,
+dideklarasikan dalam suatu lingkungan atau sistem, dapat memiliki tipe data yang
+sama
+Nama : Hanung Tri Atmojo , SI04
